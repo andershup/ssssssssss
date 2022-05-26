@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    background-color: green;
+    justify-content: space-around;
+}
+.col-1 {
+    background-color: white;
+    width: 66%;
+  
+}
+
+.col-1 > h1 {
+    color: #136C72;
+    font-family: 'Roboto Black', 'Helvetica Neue', sans-serif; 
+    font-size: 36px;
+    margin: 1em 2em;
+}
+
+.col-1 > p {
+    margin: 3em;
+}
+.col-2 {
+    background-color: #136C72;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+    width: 34%;
+}
+
+
+p , h1 {
+    text-align: center;
+    margin: 1em 2em;
+}
